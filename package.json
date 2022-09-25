@@ -1,0 +1,19 @@
+{
+  "name": "@eboon/lit-router",
+  "version": "1.0.0",
+  "description": "A simple router for Lit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lit",
+    "lit-html",
+    "router"
+  ],
+  "author": "Eboon <eban.sayago@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
