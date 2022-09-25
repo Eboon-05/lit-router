@@ -25,5 +25,13 @@
     "lit": "^2.3.1",
     "travelerjs": "^1.0.2"
   },
-  "private": false
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eboon-05/lit-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eboon-05/lit-router/issues"
+  },
+  "homepage": "https://github.com/Eboon-05/lit-router#readme"
 }
