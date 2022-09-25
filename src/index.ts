@@ -36,10 +36,6 @@ export class LitRouter extends LitElement {
 
         router.listen()
     }
-
-    getParams() {
-        return this.params
-    }
 }
 
 @customElement('router-link')
@@ -65,4 +61,9 @@ export class RouterLink extends LitElement {
         ev.preventDefault()
         router.go(this.to)
     }
+}
+
+export function getParams() {
+    const paths = location.pathname.split('/')
+    return paths[paths.length - 1]
 }
