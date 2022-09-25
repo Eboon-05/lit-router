@@ -2,7 +2,8 @@
   "name": "@eboon/lit-router",
   "version": "1.0.0",
   "description": "A simple router for Lit",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json"
