@@ -36,7 +36,7 @@ export class YourElement extends LitElement {
 
 ### Parameters
 
-In the above example we have the `/user/@user` path. `/user` is the route and `@user` the param. If you want to get the params, you must can them from the `getParams()` function.
+In the above example we have the `/user/@user` path. `/user` is the route and `@user` the param. If you want to get the params, you must get them from the `getParams()` function.
 
 ```ts
 import { getParams } from '@eboon/lit-router'
@@ -65,7 +65,13 @@ For using the links, use the `router-link` element. You cand send the `class` pa
     // ...
     render() {
         return html`
-            <router-link to='/some/path' class='my-link-class' anchor-id='some-link'></lit-router>
+            <router-link 
+                to='/some/path' 
+                class='my-link-class' 
+                anchor-id='some-link'
+            >
+                Home
+            </router-link>
         `
     }
     // ...
